@@ -1,0 +1,85 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="840" height="2110" viewBox="0 0 840 2110" role="img" aria-labelledby="title desc">
+  <title id="title">Mi aventura de lectura</title>
+  <desc id="desc">Propuesta visual de un mapa infantil con un camino que conecta las actividades de lectura. Un niño está junto al nivel d, después de doce actividades completadas. Cuatro actividades posteriores están bloqueadas.</desc>
+  <defs>
+    <linearGradient id="bg" x2="0" y2="1"><stop stop-color="#fff8e7"/><stop offset="1" stop-color="#edf6e4"/></linearGradient>
+    <linearGradient id="green" x2="0" y2="1"><stop stop-color="#a3d99a"/><stop offset="1" stop-color="#65b880"/></linearGradient>
+    <linearGradient id="blue" x2="0" y2="1"><stop stop-color="#69c9ec"/><stop offset="1" stop-color="#258dcd"/></linearGradient>
+    <filter id="shadow" x="-40%" y="-40%" width="180%" height="190%"><feDropShadow dx="0" dy="6" stdDeviation="0" flood-color="#23334b" flood-opacity=".16"/></filter>
+    <g id="star"><path d="M0-12 3.7-4.2 12-3 6 3 7.5 11 0 7-7.5 11-6 3-12-3-3.7-4.2Z" fill="#ffd366" stroke="#e7a739" stroke-width="1.5" stroke-linejoin="round"/></g>
+    <g id="stars"><use href="#star" x="-26"/><use href="#star"/><use href="#star" x="26"/></g>
+    <g id="done"><circle r="46" fill="url(#green)" stroke="#fffdf4" stroke-width="7" filter="url(#shadow)"/><path d="M-29-22 Q-13-36 9-32" fill="none" stroke="#d5efc6" stroke-width="6" stroke-linecap="round"/></g>
+    <g id="lock"><circle r="43" fill="#dbe1db" stroke="#fffdf4" stroke-width="7" filter="url(#shadow)"/><rect x="-14" y="-5" width="28" height="25" rx="6" fill="#98a5a3"/><path d="M-9-5v-8a9 9 0 0 1 18 0v8" fill="none" stroke="#98a5a3" stroke-width="5"/><circle cy="6" r="3" fill="#eaf0e8"/><path d="M0 7v6" stroke="#eaf0e8" stroke-width="3"/></g>
+    <g id="tree"><ellipse cy="31" rx="35" ry="10" fill="#669b77" opacity=".12"/><path d="M0 9v22" stroke="#bc9263" stroke-width="10" stroke-linecap="round"/><path d="M-31 2C-44-17-26-36-13-33-16-54 18-59 26-36 48-28 44-4 28 6 12 17-14 17-31 2" fill="#a9d4a3"/><path d="M-19-18Q-9-30 3-27" stroke="#cbe7b9" stroke-width="7" fill="none" stroke-linecap="round"/></g>
+    <g id="flower"><path d="M0 0v19m0-6q-12-12-14-4m14 8q10-12 14-8" stroke="#83b588" stroke-width="3" fill="none"/><g fill="#fffaf1"><circle cy="-8" r="7"/><circle cx="8" cy="-2" r="7"/><circle cx="5" cy="7" r="7"/><circle cx="-5" cy="7" r="7"/><circle cx="-8" cy="-2" r="7"/></g><circle r="5" fill="#f1bf58"/></g>
+    <g id="grass" stroke="#9ac39a" stroke-width="4" fill="none" stroke-linecap="round"><path d="M0 0-5-12M0 0 3-17M0 0 11-8"/></g>
+    <g id="book"><path d="M-27-19Q-10-24 0-15 10-24 27-19v38Q10 14 0 23-10 14-27 19Z" fill="#fffdf4" stroke="#749d96" stroke-width="3"/><path d="M0-15v38" stroke="#749d96" stroke-width="3"/><path d="M-20-9-7-6m-13 6 13 3m14-9 13-3M7 3l13-3" stroke="#b7ccc3" stroke-width="3" stroke-linecap="round"/></g>
+    <g id="child">
+      <ellipse cx="0" cy="91" rx="36" ry="9" fill="#24394b" opacity=".14"/>
+      <path d="M-14 52-18 82m31-30 9 30" stroke="#354d76" stroke-width="17" stroke-linecap="round"/>
+      <path d="M-18 82-28 85m50-3 10 3" stroke="#fffdf4" stroke-width="13" stroke-linecap="round"/>
+      <rect x="-31" y="6" width="21" height="43" rx="10" fill="#e9a95c"/>
+      <path d="M-16 17-32 35m48-18 18-18" stroke="#e7ac7d" stroke-width="13" stroke-linecap="round"/>
+      <path d="M-21 19Q0 5 21 19l-3 38h-36Z" fill="#edab57"/><path d="M-11 19v33" stroke="#f8ce83" stroke-width="5" stroke-linecap="round"/>
+      <rect x="-7" y="0" width="14" height="15" rx="5" fill="#e7ac7d"/>
+      <circle cy="-17" r="26" fill="#efbb90"/><circle cx="-25" cy="-15" r="5" fill="#efbb90"/><circle cx="25" cy="-15" r="5" fill="#efbb90"/>
+      <path d="M-26-18Q-33-48 0-49 31-47 27-17L18-31Q-4-20-18-31Z" fill="#624739"/>
+      <path d="M-20-39Q-7-51 10-43" stroke="#80604b" stroke-width="5" fill="none" stroke-linecap="round"/>
+      <g fill="#29374d"><circle cx="-9" cy="-15" r="2.5"/><circle cx="10" cy="-15" r="2.5"/></g>
+      <path d="M-7-4Q1 3 9-4" stroke="#965d4b" stroke-width="2.5" fill="none" stroke-linecap="round"/>
+      <circle cx="-16" cy="-7" r="4" fill="#eaa28c"/><circle cx="17" cy="-7" r="4" fill="#eaa28c"/>
+    </g>
+    <style>text{font-family:ui-rounded,'Arial Rounded MT Bold','Trebuchet MS',sans-serif;fill:#25344f} .letter{font-size:30px;font-weight:800;text-anchor:middle;dominant-baseline:central;fill:#244936}.label{font-size:20px;font-weight:700}.small{font-size:17px;fill:#78867d}.chapter{font-size:16px;font-weight:800;letter-spacing:2px;fill:#657e70}</style>
+  </defs>
+  <rect width="840" height="2110" rx="32" fill="url(#bg)"/>
+  <path d="M0 390Q110 335 188 460T160 730Q78 780 0 735ZM840 470Q738 480 715 631T840 814ZM0 1100Q112 1040 157 1178T0 1450ZM840 1310Q729 1240 696 1400T840 1610ZM0 1770Q134 1710 176 1880T0 2110ZM840 1810Q694 1850 673 2020L840 2110Z" fill="#deecd2" opacity=".7"/>
+  <g transform="translate(53 55)"><use href="#star" transform="scale(1.4)"/><text x="28" y="10" font-size="29" font-weight="800">34</text></g>
+  <g transform="translate(764 53)"><rect x="-25" y="-25" width="50" height="50" rx="17" fill="#fffdf7" stroke="#dbe0d5" stroke-width="2"/><path d="M-12-9H12M-12 0H12M-12 9H12" stroke="#657481" stroke-width="3" stroke-linecap="round"/><circle cx="-4" cy="-9" r="4" fill="#657481"/><circle cx="6" r="4" fill="#657481"/><circle cx="-3" cy="9" r="4" fill="#657481"/></g>
+  <text x="420" y="134" text-anchor="middle" font-size="42" font-weight="800">Mi aventura de lectura</text>
+  <text x="420" y="173" text-anchor="middle" font-size="21" fill="#6d7c77">Cada pasito, una nueva palabra</text>
+  <rect x="295" y="199" width="250" height="34" rx="17" fill="#fffdf7"/>
+  <circle cx="316" cy="216" r="5" fill="#79b98a"/><text x="333" y="222" font-size="16" fill="#657e70">12 actividades completadas</text>
+  <!-- Un único sendero continuo conecta todas las paradas. -->
+  <path id="route" d="M300 300C300 355 535 335 535 400S610 452 580 500 300 525 300 600 225 660 260 700 535 724 535 800 606 850 565 900 300 925 300 1000 220 1055 265 1100 540 1125 540 1200 605 1255 565 1300 300 1325 300 1400 235 1455 280 1500 530 1525 530 1600 604 1657 560 1700 305 1725 305 1800 230 1850 275 1900" fill="none" stroke="#d9c6a0" stroke-width="62" stroke-linecap="round"/>
+  <use href="#route" fill="none" stroke="#f2dfb9" stroke-width="52" stroke-linecap="round"/>
+  <path d="M300 300C300 355 535 335 535 400S610 452 580 500 300 525 300 600 225 660 260 700 535 724 535 800 606 850 565 900 300 925 300 1000 220 1055 265 1100 540 1125 540 1200 605 1255 565 1300 300 1325 300 1400 235 1455 280 1500" fill="none" stroke="#fff4d9" stroke-width="4" stroke-dasharray="2 19" stroke-linecap="round"/>
+  <!-- Paisaje suave para que las actividades sigan siendo el foco. -->
+  <use href="#tree" x="121" y="370"/><use href="#tree" x="711" y="748" transform="translate(142 150) scale(.8)"/>
+  <use href="#tree" x="102" y="965"/><use href="#tree" x="714" y="1340"/><use href="#tree" x="120" y="1690"/>
+  <use href="#flower" x="690" y="359"/><use href="#flower" x="150" y="659"/><use href="#flower" x="665" y="1055"/><use href="#flower" x="146" y="1320"/><use href="#flower" x="699" y="1829"/>
+  <use href="#grass" x="173" y="466"/><use href="#grass" x="686" y="573"/><use href="#grass" x="120" y="814"/><use href="#grass" x="714" y="1139"/><use href="#grass" x="121" y="1519"/><use href="#grass" x="699" y="1670"/>
+  <g transform="translate(653 574) rotate(12)"><path d="M0 0Q-27-30-31-6T0 0Q25-31 29-8T0 0" fill="#e9bf8d"/><path d="M0-5v15" stroke="#9d856b" stroke-width="3" stroke-linecap="round"/></g>
+  <text x="135" y="282" class="chapter">VOCALES</text>
+  <g transform="translate(300 300)"><use href="#done"/><text class="letter">a e i</text><use href="#stars" y="59"/></g>
+  <text x="607" y="405" class="label">o · u</text>
+  <g transform="translate(535 400)"><use href="#done"/><text class="letter">o u</text><use href="#stars" y="59"/></g>
+  <g transform="translate(580 500)"><use href="#done"/><text class="letter" style="font-size:21px">a e i o u</text><use href="#stars" y="59"/></g>
+  <text x="510" y="502" text-anchor="end" class="label">¡Todas las vocales!</text>
+  <text x="373" y="603" class="chapter">MIS PRIMERAS SÍLABAS</text>
+  <g transform="translate(300 600)"><use href="#done"/><text class="letter">m</text><use href="#stars" y="59"/></g>
+  <g transform="translate(260 700)"><use href="#done"/><text class="letter">p</text><use href="#stars" y="59"/></g>
+  <text x="329" y="706" class="label">pa · pe · pi · po · pu</text>
+  <g transform="translate(535 800)"><use href="#done"/><text class="letter">s</text><use href="#stars" y="59"/></g>
+  <g transform="translate(565 900)"><use href="#done"/><use href="#book"/><use href="#star" x="-13" y="59"/><use href="#star" x="13" y="59"/></g>
+  <text x="338" y="907" class="label">Primeras palabras</text>
+  <g transform="translate(300 1000)"><use href="#done"/><text class="letter">l</text><use href="#stars" y="59"/></g>
+  <g transform="translate(265 1100)"><use href="#done"/><text class="letter">t</text><use href="#stars" y="59"/></g>
+  <text x="335" y="1107" class="label">ta · te · ti · to · tu</text>
+  <g transform="translate(540 1200)"><use href="#done"/><use href="#book"/><use href="#stars" y="59"/></g>
+  <text x="610" y="1207" class="label">Palabras</text>
+  <g transform="translate(565 1300)"><use href="#done"/><path d="M-23-19h46v30h-22l-13 12v-12h-11Z" fill="#fffdf4" stroke="#729c7b" stroke-width="2" stroke-linejoin="round"/><g fill="#729c7b"><circle cx="-11" cy="-4" r="3"/><circle cy="-4" r="3"/><circle cx="11" cy="-4" r="3"/></g><use href="#stars" y="59"/></g>
+  <text x="362" y="1307" class="label">Pequeñas frases</text>
+  <g transform="translate(300 1400)"><use href="#done"/><text class="letter">n</text><use href="#star" x="-13" y="59"/><use href="#star" x="13" y="59"/></g>
+  <!-- El avatar acompaña la parada activa. -->
+  <circle cx="280" cy="1500" r="61" fill="#b7e5ed" opacity=".7"/>
+  <g transform="translate(280 1500)"><circle r="46" fill="url(#blue)" stroke="#fffdf4" stroke-width="7" filter="url(#shadow)"/><text class="letter" style="fill:white;font-size:38px">d</text></g>
+  <use href="#child" transform="translate(180 1483) scale(.92)"/>
+  <g transform="translate(348 1464)"><rect width="230" height="72" rx="22" fill="#fffdf7" stroke="#c8e1df" stroke-width="2"/><path d="M1 39-13 49 1 53" fill="#fffdf7" stroke="#c8e1df" stroke-width="2"/><path d="M2 39v15" stroke="#fffdf7" stroke-width="3"/><text x="19" y="29" font-size="21" font-weight="800">¡Aquí estás tú!</text><text x="19" y="54" font-size="17" fill="#658480">Sigue con la letra d</text></g>
+  <g transform="translate(530 1600)"><use href="#lock"/></g><text x="595" y="1606" class="label" style="fill:#8d9991">Palabras largas</text>
+  <g transform="translate(560 1700)"><use href="#lock"/></g><text x="344" y="1706" class="label" style="fill:#8d9991">Nuevas sílabas</text>
+  <g transform="translate(305 1800)"><use href="#lock"/></g>
+  <g transform="translate(275 1900)"><use href="#lock"/></g><text x="345" y="1906" class="label" style="fill:#8d9991">Nuevas frases</text>
+  <g transform="translate(547 1955)"><path d="M-35 44v-66h70v66" fill="#b8d5b0"/><path d="M-43-22 0-55 43-22Z" fill="#86b793"/><path d="M-12 44V20a12 12 0 0 1 24 0v24" fill="#edf5df"/><path d="M0-54v-26" stroke="#7b9e89" stroke-width="3"/><path d="M2-80h29L20-68H2" fill="#efbf63"/><use href="#book" y="-7" transform="scale(.48)"/></g>
+  <text x="420" y="2045" text-anchor="middle" font-size="21" font-weight="700" fill="#637e6c">¡Una gran aventura empieza con una letra!</text>
+  <text x="420" y="2078" text-anchor="middle" font-size="15" fill="#88988a">PROPUESTA VISUAL · LEER JUGANDO</text>
+</svg>

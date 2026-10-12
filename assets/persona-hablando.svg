@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" fill="none">
+  <!-- Persona de perfil con la boca abierta y ondas de voz. -->
+  <path d="M17 105c1-19 12-29 29-29s28 10 30 29" fill="#1565C0" stroke="#1F2A44" stroke-width="4" stroke-linejoin="round"/>
+  <path d="M36 69v13c5 6 14 6 19 0V67" fill="#F4BC87" stroke="#1F2A44" stroke-width="4" stroke-linejoin="round"/>
+  <path d="M27 40c0-17 10-27 25-27 16 0 25 11 25 27v7l9 12-11 4v5c0 9-8 16-19 16-16 0-29-16-29-33z" fill="#F4BC87" stroke="#1F2A44" stroke-width="4" stroke-linejoin="round"/>
+  <path d="M27 51c-9-21 0-39 18-42 15-3 29 4 32 19-11 2-20-1-27-8-2 12-9 20-17 24v10" fill="#70452E" stroke="#1F2A44" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M34 49c-9-7-15 5-8 12l7 4" fill="#F4BC87" stroke="#1F2A44" stroke-width="3" stroke-linecap="round"/>
+  <circle cx="67" cy="44" r="3" fill="#1F2A44"/>
+  <path d="M76 67h-9c0 7 4 10 8 8" fill="#FFFFFF" stroke="#1F2A44" stroke-width="3" stroke-linejoin="round"/>
+  <g stroke="#1565C0" stroke-width="4" stroke-linecap="round">
+    <path d="M91 52c4 5 4 12 0 17"/>
+    <path d="M100 44c8 9 8 24 0 33"/>
+    <path d="M109 36c12 14 12 35 0 49"/>
+  </g>
+</svg>
