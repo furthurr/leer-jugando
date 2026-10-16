@@ -224,6 +224,19 @@ test('el inicio avanza aunque el navegador rechace play() (caso file://)', async
   assert.ok(srcUsado && srcUsado.startsWith('data:audio'), 'desbloquea con un data URI, no con un recurso file://');
 });
 
+test('el inicio no espera a que un WebView móvil resuelva play()', () => {
+  const { sandbox, appNode } = cargarJuego();
+  appNode.textContent = '';
+  let continuo = false;
+  const pantalla = sandbox.LEER.pantallas.inicio({
+    reproductor: { desbloquear: () => new Promise(() => {}) },
+    continuarDesdeInicio() { continuo = true; },
+  });
+  appNode.append(pantalla);
+  buscarPorTexto(appNode, 'Jugar').click();
+  assert.equal(continuo, true, 'la navegación continúa sin esperar la promesa de audio');
+});
+
 test('tras la carretilla, "siguiente" avanza al ejercicio siguiente (no lo repite)', async () => {
   const { appNode } = cargarJuego();
   const microtareas = () => new Promise((r) => setImmediate(r));

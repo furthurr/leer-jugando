@@ -6,9 +6,11 @@
   function inicio(app) {
     const jugar = el('button', {
       class: 'boton-grande', texto: '▶ Jugar',
-      async onclick() {
+      onclick() {
         jugar.disabled = true;
-        await app.reproductor.desbloquear();
+        // Algunos WebViews móviles dejan pendiente la promesa de play() aunque
+        // el audio ya se haya iniciado. El desbloqueo no debe bloquear la app.
+        app.reproductor.desbloquear();
         app.audioListo = true;
         app.continuarDesdeInicio();
       },
